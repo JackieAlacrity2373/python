@@ -7,6 +7,7 @@ b = int(input())
 #stop value#
 print("Were almost ready to play fizzbuz, please give me a value to stop playing at")
 c = int(input())
+#Derive fizzbuzz from the inputs given for fizz and buzz #
 d = (a * b)
 print("Okay lets play fizzbuzz to ", c)
 loop = int(0)
