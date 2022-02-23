@@ -1,7 +1,12 @@
 a = 3 
 b = 5 
 print("Lets play fizzbuzz to an value please give me a value")
-c = int(input())
+while True:
+        try:
+           c = int(input("Please enter a number:  "))
+           break
+        except ValueError:
+                   print("That is not a number do you think this is a game human? give e a number please... ")
 print("Okay lets play fizzbuzz to ", c)
 loop = int(0)
 while(loop < c):
