@@ -6,7 +6,7 @@ while True:
            c = int(input("Please enter a number:  "))
            break
         except ValueError:
-                   print("That is not a number do you think this is a game human? give e a number please... ")
+                   print("That is not a number do you think this is a game human? give me a number please... ")
 print("Okay lets play fizzbuzz to ", c)
 loop = int(0)
 while(loop < c):
